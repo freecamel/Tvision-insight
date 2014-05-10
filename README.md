@@ -1,5 +1,13 @@
 Tvision-insight
 
+A prototype for facial recognition based on kinect example and opencv library
+reference:
+http://msdn.microsoft.com/en-us/library/dn188694.aspx
+http://docs.opencv.org/trunk/modules/contrib/doc/facerec/
+
+
+
+
 facial motion video insights
 
 http://www.shacknews.com/article/79301/xbox-one-kinect-reading-emotions-and-heart-rate#

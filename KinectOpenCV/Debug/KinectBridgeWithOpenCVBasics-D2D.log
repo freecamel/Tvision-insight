@@ -1,0 +1,30 @@
+﻿Build started 5/9/2014 6:46:22 PM.
+     1>Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\KinectBridgeWithOpenCVBasics-D2D.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\KinectBridgeWithOpenCVBasics-D2D.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\KinectBridgeWithOpenCVBasics-D2D.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\x64\vc10\..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FrameRateTracker.cpp MainWindow.cpp OpenCVFrameHelper.cpp OpenCVHelper.cpp
+         OpenCVHelper.cpp
+         OpenCVFrameHelper.cpp
+         MainWindow.cpp
+         FrameRateTracker.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\KinectBridgeWithOpenCVBasics-D2D.res" KinectBridgeWithOpenCVBasics-D2D.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\KinectBridgeWithOpenCVBasics-D2D.exe.embed.manifest.res" Debug\KinectBridgeWithOpenCVBasics-D2D_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\Debug\KinectBridgeWithOpenCVBasics-D2D.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc10\lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\KinectBridgeWithOpenCVBasics-D2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\Debug\KinectBridgeWithOpenCVBasics-D2D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\Debug\KinectBridgeWithOpenCVBasics-D2D.lib" /MACHINE:X64 "Debug\KinectBridgeWithOpenCVBasics-D2D.res"
+         "Debug\KinectBridgeWithOpenCVBasics-D2D.exe.embed.manifest.res"
+         Debug\FrameRateTracker.obj
+         Debug\MainWindow.obj
+         Debug\OpenCVFrameHelper.obj
+         Debug\OpenCVHelper.obj
+     1>Debug\FrameRateTracker.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\KinectBridgeWithOpenCVBasics-D2D.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.72

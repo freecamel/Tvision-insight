@@ -1,0 +1,27 @@
+﻿Build started 5/10/2014 1:04:35 AM.
+     1>Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\KinectBridgeWithOpenCVBasics-D2D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\KinectBridgeWithOpenCVBasics-D2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\x64\vc10\..\..\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt MainWindow.cpp
+         MainWindow.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\x64\Debug\KinectBridgeWithOpenCVBasics-D2D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x64\vc10\lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib opencv_core249.lib opencv_imgproc249.lib opencv_highgui249.lib opencv_contrib249.lib Kinect10.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\KinectBridgeWithOpenCVBasics-D2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\x64\Debug\KinectBridgeWithOpenCVBasics-D2D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\x64\Debug\KinectBridgeWithOpenCVBasics-D2D.lib" /MACHINE:X64 "x64\Debug\KinectBridgeWithOpenCVBasics-D2D.res"
+         x64\Debug\FrameRateTracker.obj
+         x64\Debug\MainWindow.obj
+         x64\Debug\OpenCVFaceRecognition.obj
+         x64\Debug\OpenCVFrameHelper.obj
+         x64\Debug\OpenCVHelper.obj
+         KinectBridgeWithOpenCVBasics-D2D.vcxproj -> C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\x64\Debug\KinectBridgeWithOpenCVBasics-D2D.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\x64\Debug\KinectBridgeWithOpenCVBasics-D2D.exe;#1" /manifest "x64\Debug\KinectBridgeWithOpenCVBasics-D2D.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\KinectBridgeWithOpenCVBasics-D2D.unsuccessfulbuild".
+         Touching "x64\Debug\KinectBridgeWithOpenCVBasics-D2D.lastbuildstate".
+     1>Done Building Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\KinectBridgeWithOpenCVBasics-D2D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.98

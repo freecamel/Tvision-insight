@@ -1,0 +1,18 @@
+﻿Build started 5/9/2014 4:52:19 PM.
+     1>Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\KinectBridgeWithOpenCVBasics-D2D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\KinectBridgeWithOpenCVBasics-D2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FrameRateTracker.cpp MainWindow.cpp OpenCVFrameHelper.cpp OpenCVHelper.cpp
+         FrameRateTracker.cpp
+         MainWindow.cpp
+     1>c:\program files\microsoft sdks\kinect\developer toolkit v1.8.0\samples\c++\kinectbridgewithopencvbasics-d2d\OpenCVHelper.h(17): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         OpenCVFrameHelper.cpp
+     1>c:\program files\microsoft sdks\kinect\developer toolkit v1.8.0\samples\c++\kinectbridgewithopencvbasics-d2d\OpenCVFrameHelper.h(13): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         OpenCVHelper.cpp
+     1>c:\program files\microsoft sdks\kinect\developer toolkit v1.8.0\samples\c++\kinectbridgewithopencvbasics-d2d\OpenCVHelper.h(17): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+     1>Done Building Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\KinectBridgeWithOpenCVBasics-D2D\KinectBridgeWithOpenCVBasics-D2D.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.03
