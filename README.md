@@ -18,4 +18,8 @@ http://stackoverflow.com/questions/3563756/fatal-error-lnk1112-module-machine-ty
 coff problem:
 it is damned .net 4.5, which breaks everything
 
+config opencv to work with kinect
+
+http://docs.opencv.org/2.4/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html#windows-visual-studio-how-to
+
 ===============
