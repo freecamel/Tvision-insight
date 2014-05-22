@@ -103,12 +103,15 @@ void OpenCVFaceRecognition::TrainModel(const string &trainFile)
 	 model = cv::createEigenFaceRecognizer();
      model->train(images, labels);
 
+//	 int predictedLabel = model->predict(images.back());
 	 cout << "train is done!" <<endl;
 }
 
-int  OpenCVFaceRecognition::Prediction(Mat &image) 
+int  OpenCVFaceRecognition::Prediction(Mat *image) 
 {
-	    int predictedLabel = model->predict(image);
+		if( image->empty() )
+				return -1 ;
+	    int predictedLabel = model->predict(*image);
 
 		return predictedLabel ;
 }

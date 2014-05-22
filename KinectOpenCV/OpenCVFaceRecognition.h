@@ -12,7 +12,7 @@ public:
 
 	void read_csv(const string& filename, vector<Mat>& images, vector<int>& labels, char separator);
 	void TrainModel(const string &trainFile);  // train a model 
-	int Prediction(Mat &image) ;  // predict model, provide a result  
+	int Prediction(Mat *image) ;  // predict model, provide a result  
 
 private:
 	// string trainFileName ;

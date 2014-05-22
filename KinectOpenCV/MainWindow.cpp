@@ -530,12 +530,26 @@ DWORD WINAPI CMainWindow::ProcessThread()
                 {
                     continue;
                 }
+
+				Mat greyMat;
+				cvtColor(m_colorMat, greyMat, CV_BGR2GRAY);
+
+				Size dynSize(0, 0);
+				dynSize.width = 92 ; 
+				dynSize.height = 112;
+
+				int dynType = CV_8UC1;
+				// determine the type you want...
+
+				Mat dst(dynSize, dynType);
+				//Mat dst;
+				resize(greyMat, dst, dst.size(), 0, 0, cv::INTER_CUBIC);
 				
 				int res ;
-				if( ( m_colorMat.data) = 0 )
-				{
-					 res = m_openCVFaceRecog.Prediction(m_colorMat) ;
-				}
+				
+				//res = m_openCVFaceRecog.Prediction(&m_colorMat) ;
+				res = m_openCVFaceRecog.Prediction(&dst) ;
+				
                 // Apply filter to color stream
                 hr = m_openCVHelper.ApplyColorFilter(&m_colorMat);
                 if (FAILED(hr))
